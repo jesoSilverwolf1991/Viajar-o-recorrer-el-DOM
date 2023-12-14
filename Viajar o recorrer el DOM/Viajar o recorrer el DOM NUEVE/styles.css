@@ -1,0 +1,46 @@
+.tree {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .tree ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .tree li {
+    margin: 0;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .tree li::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -20px;
+    width: 1px;
+    height: 100%;
+    border-left: 1px solid #aaa;
+  }
+  
+  .tree li.collapsed::before {
+    border-left: 1px dashed #aaa;
+  }
+  
+  .tree li:last-child::before {
+    height: 10px;
+    border-bottom: 1px solid #aaa;
+  }
+  
+  .tree a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .tree a:hover {
+    text-decoration: underline;
+  }
+  

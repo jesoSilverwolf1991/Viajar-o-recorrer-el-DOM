@@ -1,0 +1,21 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(fondo.jpg);
+    background-size: cover;
+  }
+  
+  .container {
+    max-width: 600px;
+  }
+  
+  #lista {
+    margin-top: 20px;
+  }
+
+  label{
+    color: aliceblue;
+  }
+
+  h2{
+    color: aliceblue;
+  }

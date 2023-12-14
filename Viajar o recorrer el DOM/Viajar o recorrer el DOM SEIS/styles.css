@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.elemento {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.elemento.seleccionado {
+    background-color: #007bff;
+    color: #fff;
+}

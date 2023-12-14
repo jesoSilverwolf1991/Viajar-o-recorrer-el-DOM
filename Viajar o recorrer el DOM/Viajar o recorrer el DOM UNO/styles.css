@@ -1,0 +1,12 @@
+.elemento {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .cambio-color {
+    background-color: #87CEEB;
+    color: #fff;
+  }
+  
